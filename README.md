@@ -1,8 +1,4 @@
-# project-4
-The work for project 4 is divided between the "Brian", "Emma" and "WNM" folders.
+# Predicting West Nile Virus
+This was a group project with Emma, Brian, and me.
 
-The EDA, data cleaning and merging can be found in Emma's folder in the notebooks named Project4_EG_EDA and Project4_EG_weather_train_test_join respectively. The notebook named Project4_EG_models contains some modeling as well.
-
-WNM folder contains the spatial-temporal spray analysis as well as modeling, in the notebook named Project 4 WNM-Mac's Work.
-
-Our best performing model on Kaggle, as well as the spatial-temporal analysis of the mosquitos' population are in Brian's folder.
+After initial EDA, we split work. Emma cleaned and merged data sets to prepare for modeling. Brian worked on exploratory modeling, and I worked on the spatial data, creating a function to generate graphs. With the completed data, I worked on a pipeline with GridSearch to find the best model. Brian and Emma tweaked these models before landing on our best, which we submitted to Kaggle. 
